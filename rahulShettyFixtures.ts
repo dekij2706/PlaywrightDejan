@@ -1,4 +1,4 @@
-//mporting various page classes from their respective files.
+//Importing various page classes from their respective files.
 //These page classes represent different pages of the RahulShetty website.
 import { test as base } from "@playwright/test";
 import { HomePage } from "./pages/RahulShetty/homePage";
