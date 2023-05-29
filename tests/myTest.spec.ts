@@ -345,9 +345,7 @@ test("Alert", async ({ page }) => {
 // Open the browser.
 // Expected Result: The browser should open.
 
-test("Open Browser", async ({ page, browser }) => {
-  // No action needed, just opening the browser
-
+test("Open Browser", async ({ browser }) => {
   // Check if the browser is open
   const isOpen = browser.isConnected();
   expect(isOpen).toBe(true);
