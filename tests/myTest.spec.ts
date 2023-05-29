@@ -370,6 +370,6 @@ test("Navigate to Contact Us page", async ({ page }) => {
 });
 
 // Test Case 18:
-
+//console.log()
 // Enter the saved alert text (from Test Case 15) into the comment text box.
 // Expected Result: The alert text should be entered into the comment text box.
